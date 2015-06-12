@@ -1,5 +1,5 @@
 (function($) {
-    elrTimeUtilities = function() {
+    var elrTimeUtilities = function() {
         var self = {};
 
         self.now = new Date();
