@@ -1,6 +1,6 @@
 {
   "name": "elr-time-utilities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "utilities for working with date/time information",
   "main": "dist/elr-time-utilities.js",
   "repository": {
