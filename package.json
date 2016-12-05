@@ -1,7 +1,7 @@
 {
   "name": "elr-time-utilities",
   "description": "utilities for working with date/time information",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Elizabeth Rogers",
   "bugs": {
     "url": "https://github.com/Beth3346/elr-time-utilities",
