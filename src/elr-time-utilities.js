@@ -394,28 +394,7 @@ const elrTimeUtilities = function() {
                 eventDate: 31,
                 type: 'holiday',
                 recurrance: 'yearly'
-            },
-            {
-                name: 'First Tuesday of Month',
-                recurrance: 'monthly',
-                day: ['Tuesday'],
-                dayNum: 'first',
-                type: 'holiday'
-            },
-            {
-                name: 'First Monday',
-                recurrance: 'monthly',
-                day: ['Monday'],
-                dayNum: 'first',
-                type: 'holiday'
-            },
-            {
-                name: 'Last Friday',
-                recurrance: 'monthly',
-                day: ['Friday'],
-                dayNum: 'last',
-                type: 'holiday'
-            },
+            }
         ],
         factors: {
             ms: 1,
