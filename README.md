@@ -1,5 +1,7 @@
 # elr-time-utilities
 
+[![Build Status](https://travis-ci.org/Beth3346/elr-time-utilities.svg?branch=master)](https://travis-ci.org/Beth3346/elr-time-utilities)
+
 utilities for working with date/time information
 
 ## Installation
