@@ -1,6 +1,4 @@
-# elr-time-utilities 
-
-https://travis-ci.org/Beth3346/elr-time-utilities.svg?branch=master
+# elr-time-utilities
 
 utilities for working with date/time information
 
