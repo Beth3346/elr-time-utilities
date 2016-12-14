@@ -1,4 +1,4 @@
-import elrTimeUtilities from '../src/elr-time-utilities.js';
+import elrTimeUtilities from '../src/main.js';
 
 const elrTime = elrTimeUtilities();
 const expect = require('chai').expect;

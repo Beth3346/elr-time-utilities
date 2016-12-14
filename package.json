@@ -32,7 +32,7 @@
     "javascript, jquery, time, calendar, date, ui"
   ],
   "license": "SEE LICENSE IN LICENSE.md",
-  "main": "dist/elr-time-utilities.js",
+  "main": "dist/main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/elr-utilities/elr-time-utilities.git"

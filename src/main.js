@@ -14,7 +14,7 @@ const elrTimeUtilities = function() {
                 'hour': this.now.getHours(),
                 'minute': this.now.getMinutes(),
                 'second': this.now.getSeconds()
-            }
+            };
         },
         daysPerWeek: 7,
         unitTokens: {
@@ -647,7 +647,7 @@ const elrTimeUtilities = function() {
                     'month': today.month,
                     'date': today.date,
                     'year': today.year
-                }
+                };
             } else if (keyword === 'tomorrow') {
                 return this.getTomorrow(today);
             }
@@ -809,7 +809,7 @@ const elrTimeUtilities = function() {
                 // get the dates from the new year
                 let remainingDays = this.daysPerWeek - dates.length;
 
-                for (var day = 1; day <= remainingDays; day++) {
+                for (let day = 1; day <= remainingDays; day++) {
                     dates.push({
                         'month': 0,
                         'date': day,
@@ -818,7 +818,7 @@ const elrTimeUtilities = function() {
                 }
             } else if (dateObj.month === 0) {
                 // dates 1 - 7
-                for (var day = 1; day <= 7; day++) {
+                for (let day = 1; day <= 7; day++) {
                     dates.push({
                         'month': 0,
                         'date': day,
