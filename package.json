@@ -25,7 +25,14 @@
     "gulp-jshint": "^2.0.1",
     "gulp-sourcemaps": "^2.1.1",
     "jshint": "^2.9.3",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "mocha-notifier-reporter": "^0.1.2",
+    "nyc": "^10.0.0",
+    "ghooks": "^1.3.2",
+    "codecov": "^1.0.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0"
   },
   "homepage": "http://www.elizabeth-rogers.com/elr-utilities/js-time-utilities.html",
   "keywords": [
@@ -37,9 +44,26 @@
     "type": "git",
     "url": "https://github.com/elr-utilities/elr-time-utilities.git"
   },
+  "config": {
+    "ghooks": {
+      "pre-commit": "gulp"
+    }
+  },
+  "nyc": {
+    "check-coverage": true,
+    "branches": 90,
+    "functions": 100,
+    "lines": 90,
+    "statements": 90,
+    "include": [
+      "src/*.js"
+    ]
+  },
   "scripts": {
     "build": "build",
-    "test": "mocha --compilers js:babel-core/register",
-    "test watch": "mocha watch --compilers js:babel-core/register"
+    "test": "nyc mocha test/test.js --compilers js:babel-core/register",
+    "test watch": "nyc mocha test/test.js watch --compilers js:babel-core/register",
+    "cover": "nyc --reporter=lcov npm test",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   }
 }
