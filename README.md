@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Beth3346/elr-time-utilities.svg?branch=master)](https://travis-ci.org/Beth3346/elr-time-utilities)
 [![codecov](https://codecov.io/gh/Beth3346/elr-time-utilities/branch/master/graph/badge.svg)](https://codecov.io/gh/Beth3346/elr-time-utilities)
+[![Github All Releases](https://img.shields.io/github/downloads/Beth3346/elr-time-utilities/total.svg)](https://github.com/Beth3346/elr-time-utilities)
 
 utilities for working with date/time information
 
