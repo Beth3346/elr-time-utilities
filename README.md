@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Beth3346/elr-time-utilities.svg?branch=master)](https://travis-ci.org/Beth3346/elr-time-utilities)
 [![codecov](https://codecov.io/gh/Beth3346/elr-time-utilities/branch/master/graph/badge.svg)](https://codecov.io/gh/Beth3346/elr-time-utilities)
-[![npm](https://img.shields.io/npm/elr-time-utilities/localeval.svg?style=plastic)]()
+[![npm](https://img.shields.io/npm/dm/localeval.svg?style=plastic)]()
 
 utilities for working with date/time information
 
