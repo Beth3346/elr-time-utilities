@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Beth3346/elr-time-utilities.svg?branch=master)](https://travis-ci.org/Beth3346/elr-time-utilities)
 [![codecov](https://codecov.io/gh/Beth3346/elr-time-utilities/branch/master/graph/badge.svg)](https://codecov.io/gh/Beth3346/elr-time-utilities)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/dm/elr-time-utilities.svg?style=flat)]()
 
 utilities for working with date/time information
@@ -13,8 +14,6 @@ Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't 
 ```sh
 npm install elr-time-utilities --save
 ```
-
-
 
 ## Dependencies
 

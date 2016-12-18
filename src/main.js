@@ -1,5 +1,4 @@
 import elrUtlities from 'elr-utility-lib';
-const $ = require('jquery');
 let elr = elrUtlities();
 
 const elrTimeUtilities = function() {
