@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/Beth3346/elr-time-utilities.svg?branch=master)](https://travis-ci.org/Beth3346/elr-time-utilities)
 [![codecov](https://codecov.io/gh/Beth3346/elr-time-utilities/branch/master/graph/badge.svg)](https://codecov.io/gh/Beth3346/elr-time-utilities)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm](https://img.shields.io/npm/dm/elr-time-utilities.svg?style=flat)]()
+[![npm](https://img.shields.io/npm/dm/elr-time-utilities.svg?style=flat)]() [![Greenkeeper badge](https://badges.greenkeeper.io/Beth3346/elr-time-utilities.svg)](https://greenkeeper.io/)
 
 utilities for working with date/time information
 
